@@ -1,0 +1,29 @@
+/*********Variables Proyecto*********/
+:root {
+  /*************fonts************/
+  --headline1: 700 5.9rem/9.6rem Poppins;
+  --headline2: 700 3.6rem/5.9rem Poppins;
+  --headline3: 700 3rem/4.8rem Poppins;
+  --headline4: 700 2.1rem/3.4rem Poppins;
+  --headline5: 700 1.5rem/2.4rem Poppins;
+  --comentarios: 300 2.1rem/3.4rem Poppins;
+  --comentariosMovil: 400 1.5rem/2.4rem Poppins;
+  --comentarioMovilBold: 700 1rem/1.6rem Poppins;
+  --body1: 400 1rem/1.6rem Poppins;
+  --body2: 400 0.8rem/1.4rem Poppins;
+  --button: 700 0.8rem/1.4rem Poppins;
+  --caption: 400 0.75rem/1.18rem Poppins;
+  /**********Paleta de coloes ***********/
+
+  --colorPrimary: #310a90;
+  --colorSecundary: #fff;
+  --while_transparent: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39.7657px);
+  --gradient_background: radial-gradient(
+        41.48% 11.48% at 2.38% 8.52%,
+        #747de9 0%,
+        rgba(255, 255, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+}
