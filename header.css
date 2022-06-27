@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 6px;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+.header__img {
+  width: 69px;
+  height: 19px;
+}
+.header__nav {
+  width: 330px;
+  display: flex;
+  gap: 40px;
+  display: none;
+}
+.header__link {
+  list-style: none;
+  font: var(--button);
+  color: var(--colorSecundary);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.header__link--color {
+  color: var(--colorPrimary);
+}
+
+/*********resposive*************/
+@media screen and (min-width: 649px) {
+  .header__nav {
+    width: 330px;
+    display: flex;
+    gap: 40px;
+  }
+}
