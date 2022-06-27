@@ -1,0 +1,44 @@
+.header__button {
+  background-color: var(--colorPrimary);
+  --colorSecundary: #fff;
+  color: var(--colorSecundary);
+  padding: 13px 24px;
+  font: var(--button);
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 2px solid var(--colorPrimary);
+  text-decoration: none;
+  text-align: center;
+}
+
+.header__button--transparent {
+  background-color: unset;
+  color: var(--colorPrimary);
+  border: 2px solid var(--colorPrimary);
+}
+
+/************iconos redes sociales ************/
+
+.hero__icono {
+  padding: 10px 10px;
+  background-color: var(--colorSecundary);
+  border: 2px solid var(--colorPrimary);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  text-decoration: none;
+}
+/***********imagen del icono **********/
+.hero__img {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+}
