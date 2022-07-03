@@ -1,0 +1,123 @@
+.contenedor__com {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 481px;
+  padding: 40px 16px;
+}
+.comentario__contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 328px;
+  height: 401px;
+  text-align: center;
+}
+.comentario__contenedor--while {
+  background-color: var(--while_transparent);
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  margin-bottom: 5px;
+}
+.comentario__parrafo {
+  font: var(--comentariosMovil);
+}
+.comentario__titulo {
+  font: var(--headline5);
+}
+.comentario__img {
+  width: 80.52px;
+  height: 80.52px;
+}
+.comentario__parrafo--font {
+  font: var(--comentarioMovilBold);
+}
+.comentario__titulo--font {
+  font: var(--caption);
+  opacity: 0.5;
+}
+
+/******** movil ****************/
+
+/*********768*************/
+@media screen and (min-width: 768px) {
+  .contenedor__com {
+    height: 100vh;
+    padding-top: 40px;
+    padding-left: 72px;
+    padding-right: 72px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+/******************890***************/
+
+@media screen and (min-width: 854px) {
+  .comentario__parrafo {
+    font: var(--comentarios);
+  }
+  .comentario__parrafo--font {
+    font: var(--headline4);
+  }
+  .comentario__titulo {
+    font: var(--headline5);
+  }
+  .comentario__contenedor {
+    width: 900px;
+    height: 278px;
+    padding: 0;
+  }
+  .comentario__contenedor--while {
+    height: 493px;
+  }
+}
+@media screen and (min-width: 890px) {
+  .hero__description {
+    width: 28.46rem;
+  }
+  .hero {
+    gap: 170px;
+  }
+}
+@media screen and (min-width: 972px) {
+  .hero__foto {
+    width: 31.25rem;
+    height: 31.25rem;
+  }
+}
+
+/****************comentario clientes ***************/
+.comentario__contenedor--clientes {
+  width: 1366px;
+  height: 552px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(40px);
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comentario__parrafo--clientes {
+  font: var(--headline4);
+}
+
+.comentario__titulo--opacity {
+  color: rgba(48, 10, 144, 0.502);
+}
